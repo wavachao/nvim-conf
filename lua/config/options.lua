@@ -5,3 +5,8 @@ vim.opt.clipboard = "unnamedplus"
 
 vim.opt.timeoutlen = 1000
 vim.opt.ttimeoutlen = 0
+
+-- Set tab to 4 spaces
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
